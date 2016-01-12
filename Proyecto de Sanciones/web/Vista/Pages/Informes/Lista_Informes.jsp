@@ -171,13 +171,13 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        Crear Informes 
+                        Lista de Informes
                         <small></small>
                     </h1>
                     <ol class="breadcrumb">
                         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li><a href="#">Informes</a></li>
-                        <li class="active">Crear Informes</li>
+                        <li class="active">Lista de Informes</li>
                     </ol>
                 </section>
 
@@ -187,7 +187,7 @@
                         <div class="col-xs-12 col-md-12">
                             <div class="box">
                                 <div class="box-header">
-                                    <h4 class="box-title">Lista de Alumnos de la UpeU</h4>
+                                    <h4 class="box-title">Lista de Informes enviadas por el Usuario</h4>
 
                                     <div class="box-header with-border">
 
@@ -202,172 +202,76 @@
                                     </div><!-- /.box -->
                                     <!-- /.box-header -->
                                     <div class="box-body">
-                                        <table id="example2" class="table table-bordered table-hover">
+                                        <table id="example2" class="table table-bordered table-hover ">
                                             <thead>
                                                 <tr>
-                                                    <th>Nombre/Apellido</th>
-                                                    <th>Codigo</th>
-                                                    <th>DNI</th>
-                                                    <th>Escuela</th>
-                                                    <th>Facultad</th>
+                                                    <th>N°</th>
+                                                    <th>Involucrados</th>
+                                                    <th>Lugar</th>
+                                                    <th>Fecha</th>
+                                                    <th>Descripcion</th>
                                                 </tr>
                                             </thead>
 
 
                                         </table>
-                                    </div><!-- /.box-body -->
-                                </div><!-- /.box -->
-
-
-                            </div>
-                            <div class="box">
-                                <div class="box-header">
-                                    <h3>Data del Alumno</h3>
-                                    <div class="col-md-4">
-                                        <div style ="margin-bottom: 20px;
-                                             margin-top: 10px;">
-                                    <div>
-
-                                    <img src="../../../img/descarga.jpg" alt=""/>
+                                    </div>
+                                    <div class="box-footer">
+                                         <div class="col-md-2 col-md-offset-1">
+                                            <button class="btn btn-block btn-success"><i class="fa fa-male"></i> Involucrados</button>
                                         </div>
-                                    </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                         <div style="margin-top: 0;
-                                              ">
-                                    <form class="form-horizontal">
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3 ">Nombre:</label>
-                                            <div class="col-xs-6 col-md-4 ">
-                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                                            </div>
+                                       <div class="col-md-2 col-md-offset-4">
+                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>  Insertar Pruebas</button>
+                                        </div>
+                                        
                                             
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3 ">Sexo:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3">Fecha de Nacimiento:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="date" class="form-control" placeholder="Confirmar Password">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3">Nacionalidad:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="text" class="form-control" placeholder="Nombre">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3">Estado Civil:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="text" class="form-control" placeholder="Apellido">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Direccion:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Telefono:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Celular:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >DNI:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Idioma Oficial:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Adventista:</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Nombre de la Iglesia</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3" >Cargo de la Iglesia</label>
-                                            <div class="col-xs-6 col-md-4">
-                                                <input type="tel" class="form-control" placeholder="Telefono">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-md-offset-3">
-                                            <button class="btn btn-default btn-block"><i class="fa fa-plus"></i> Agregar Involucrado</button>
-                                        </div>
-
-
-
-                                     
-                                        <br>
-
-                                    </form>
-                                    </div> 
+                                        
+                                        
+                                        
                                     </div>
-                                </div>
-                                
-                            </div>
-                            <div class="box">
-                                <div class="box-header">
-                                    <h3>Descripcion del Informe </h3>
                                     <form class="form-horizontal">
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-3 ">Involucrados:</label>
-                                            <div class="col-xs-6 col-md-4 ">
-                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="form-group">
+                                            <div class="form-group">
                                             <label class="control-label col-xs-3 ">Lugar:</label>
                                             <div class="col-xs-6 col-md-4 ">
-                                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese el Lugar">
+                                                <input type="email" class="form-control" id="inputEmail">
                                             </div>
                                             
                                         </div>
                                         <div class="form-group">
+                                            <label class="control-label col-xs-3 ">Fecha:</label>
+                                            <div class="col-xs-6 col-md-4 ">
+                                                <input type="date" class="form-control" id="inputEmail">
+                                            </div>
+                                            
+                                        </div>
+                                        <h3>Agregar una Anotacion</h3>
+                                         <div class="form-group">
                                             <label class="control-label col-xs-3">Descripcion:</label>
                                             <div class="col-xs-7">
                                                 <textarea rows="6" class="form-control" placeholder="Tenga en cuenta que no podra editar el informe pero se podra acotar "></textarea>
                                                           
                                             </div>
                                         </div>
+                                         <div class="form-group">
+                                            <label class="control-label col-xs-3">Anotacion:</label>
+                                            <div class="col-xs-7">
+                                                <textarea rows="6" class="form-control" placeholder="Agregar adicional "></textarea>
+                                                          
+                                            </div>
+                                        </div>
                                         <div class="col-md-2 col-md-offset-10">
                                             <button class="btn btn-block btn-success"><i class="fa fa-plus"></i> Enviar Informe</button>
                                         </div>
-                                                   
-                                                                
+                                        </form> 
+                                    
+                                    
+                                    <!-- /.box-body -->
+                                </div><!-- /.box -->
 
-                                     
-                                       
-                                        <br>
 
-                                    </form>
-                                </div>
                             </div>
+             
+                           
                                
                                     
                                
