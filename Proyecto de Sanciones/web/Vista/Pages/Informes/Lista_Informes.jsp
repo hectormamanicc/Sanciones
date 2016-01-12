@@ -221,7 +221,7 @@
                                             <button class="btn btn-block btn-success"><i class="fa fa-male"></i> Involucrados</button>
                                         </div>
                                        <div class="col-md-2 col-md-offset-4">
-                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>Insertar Pruebas</button>
+                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>  Insertar Pruebas</button>
                                         </div>
                                         
                                             
@@ -262,7 +262,7 @@
                                         <div class="col-md-2 col-md-offset-10">
                                             <button class="btn btn-block btn-success"><i class="fa fa-plus"></i> Enviar Informe</button>
                                         </div>
-                                        </form>
+                                        </form> 
                                     
                                     
                                     <!-- /.box-body -->
