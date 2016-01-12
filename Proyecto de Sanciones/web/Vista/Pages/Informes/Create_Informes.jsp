@@ -224,7 +224,8 @@
                                 <div class="box-header">
                                     <h3>Data del Alumno</h3>
                                     <div class="col-md-4">
-                                        <div style ="margin-bottom: 20px;">
+                                        <div style ="margin-bottom: 20px;
+                                             margin-top: 10px;">
                                     <div>
 
                                     <img src="../../../img/descarga.jpg" alt=""/>
@@ -251,7 +252,7 @@
                                         <div class="form-group">
                                             <label class="control-label col-xs-3">Fecha de Nacimiento:</label>
                                             <div class="col-xs-6 col-md-4">
-                                                <input type="password" class="form-control" placeholder="Confirmar Password">
+                                                <input type="date" class="form-control" placeholder="Confirmar Password">
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -332,6 +333,39 @@
                             <div class="box">
                                 <div class="box-header">
                                     <h3>Descripcion del Informe </h3>
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label class="control-label col-xs-3 ">Involucrados:</label>
+                                            <div class="col-xs-6 col-md-4 ">
+                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-xs-3 ">Lugar:</label>
+                                            <div class="col-xs-6 col-md-4 ">
+                                                <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese el Lugar">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-xs-3">Descripcion:</label>
+                                            <div class="col-xs-7">
+                                                <textarea rows="6" class="form-control" placeholder="Tenga en cuenta que no podra editar el informe pero se podra acotar "></textarea>
+                                                          
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-md-offset-10">
+                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i> Enviar Informe</button>
+                                        </div>
+                                                   
+                                                                
+
+                                     
+                                       
+                                        <br>
+
+                                    </form>
                                 </div>
                             </div>
                                
