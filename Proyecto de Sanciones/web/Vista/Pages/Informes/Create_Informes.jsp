@@ -222,8 +222,18 @@
                             </div>
                             <div class="box">
                                 <div class="box-header">
-                                    <div class="col-md-9">
-                                         <div style="margin-top: 0;">
+                                    <h3>Data del Alumno</h3>
+                                    <div class="col-md-4">
+                                        <div style ="margin-bottom: 20px;">
+                                    <div>
+
+                                    <img src="../../../img/descarga.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                         <div style="margin-top: 0;
+                                              ">
                                     <form class="form-horizontal">
                                         <div class="form-group">
                                             <label class="control-label col-xs-3 ">Nombre:</label>
@@ -310,26 +320,19 @@
 
 
 
-                                        <div class="form-group">
-                                            <div class="col-xs-offset-3 col-xs-9">
-                                                <label class="checkbox-inline">
-                                                    <input type="checkbox" value="agree">  Accepto <a href="#">Terminos y condiciones</a>.
-                                                </label>
-                                            </div>
-                                        </div>
+                                     
                                         <br>
 
                                     </form>
                                     </div> 
                                     </div>
-                                    <div class="col-md-3">
-                                    <div class="">
-
-                                    <img src="../../../img/descarga.jpg" alt=""/>
-                                        </div>
-                                    </div>
                                 </div>
                                 
+                            </div>
+                            <div class="box">
+                                <div class="box-header">
+                                    <h3>Descripcion del Informe </h3>
+                                </div>
                             </div>
                                
                                     
