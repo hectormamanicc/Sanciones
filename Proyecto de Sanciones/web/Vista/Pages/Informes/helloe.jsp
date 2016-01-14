@@ -19,7 +19,7 @@
         <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     
         <link href="../../../jQuery/external/css/estilos.css" rel="stylesheet" type="text/css"/>
-       
+        
         <!--
         <
         <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -226,9 +226,7 @@
   <div class="form"
        
        >
-        <div class="box">
-                    
-                    <div class="box-header">
+      
                   
        <div class="col-md-4">
         <div style ="margin-bottom: 20px;
@@ -241,128 +239,268 @@
          </div>
         <div class="col-md-8">
            <div style="margin-top: 0;
+                margin-bottom: 5px;
                                               ">           
-    <form id="example-form" action="#">
-    <div>
-        <h3>Account</h3>
-        <section>
-            <label for="userName">User name *</label>
-            <input id="userName" name="userName" type="text" class="required">
-            <label for="password">Password *</label>
-            <input id="password" name="password" type="text" class="required">
-            <label for="confirm">Confirm Password *</label>
-            <input id="confirm" name="confirm" type="text" class="required">
-            <p>(*) Mandatory</p>
-        </section>
-        <h3>Profile</h3>
-        <section>
-            <label for="name">First name *</label>
-            <input id="name" name="name" type="text" class="required">
-            <label for="surname">Last name *</label>
-            <input id="surname" name="surname" type="text" class="required">
-            <label for="email">Email *</label>
-            <input id="email" name="email" type="text" class="required email">
-            <label for="address">Address</label>
-            <input id="address" name="address" type="text">
-            <p>(*) Mandatory</p>
-        </section>
-        <h3>Hints</h3>
-        <section>
-            <ul>
-                <li>Foo</li>
-                <li>Bar</li>
-                <li>Foobar</li>
-            </ul>
-        </section>
-        <h3>Finish</h3>
-        <section>
-            <input id="acceptTerms" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms">I agree with the Terms and Conditions.</label>
-        </section>
+    <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#seccion1" aria-controls="seccion1" data-toggle="tab" role="tab">Datos Personales</a></li>
+  <li role="presentation"><a href="#seccion2" aria-controls="seccion2" data-toggle="tab" role="tab">Iglesia</a></li>
+  
+</ul>
+               <div class="tab-content">
+                   <div role="tabpanel" class="tab-pane active" id="seccion1">
+                       <h3>Datos del Usuario</h3>
+                       <form class="form-horizontal">          
+       <div class="form-group">
+        <label class="control-label col-xs-3">Nombre:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
     </div>
-</form>
+    
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Paterno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+    </div>
+                      
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Materno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Sexo:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </div>
+    </div>
+   <div class="form-group">
+        <label class="control-label col-xs-3">Fecha Nacimiento:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="date" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Nacionalidad:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Estado civil:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Casado</option>
+                <option>Soltero</option>
+                <option>Divorcio</option>
+            </select>
+        </div>
+    </div>                  
+    
+    
+                         
+      </form>
+                   </div>
+                   <div role="tabpanel" class="tab-pane" id="seccion2">
+                       <h3>Datos del Usuario</h3>
+                        <p>
+                         
+                       </p>
+                   </div>
+               </div>       
+               
             </div> 
             </div>
    
  
-                    
-                </div>
-            
-            </div>
-      
-      
+              
   </div>
 </div>
-                      <form id="example-form" action="#">
-    <div>
-        <h3>Account</h3>
-        <section>
-            <label for="userName">User name *</label>
-            <input id="userName" name="userName" type="text" class="required">
-            <label for="password">Password *</label>
-            <input id="password" name="password" type="text" class="required">
-            <label for="confirm">Confirm Password *</label>
-            <input id="confirm" name="confirm" type="text" class="required">
-            <p>(*) Mandatory</p>
-        </section>
-        <h3>Profile</h3>
-        <section>
-            <label for="name">First name *</label>
-            <input id="name" name="name" type="text" class="required">
-            <label for="surname">Last name *</label>
-            <input id="surname" name="surname" type="text" class="required">
-            <label for="email">Email *</label>
-            <input id="email" name="email" type="text" class="required email">
-            <label for="address">Address</label>
-            <input id="address" name="address" type="text">
-            <p>(*) Mandatory</p>
-        </section>
-        <h3>Hints</h3>
-        <section>
-            <ul>
-                <li>Foo</li>
-                <li>Bar</li>
-                <li>Foobar</li>
-            </ul>
-        </section>
-        <h3>Finish</h3>
-        <section>
-            <input id="acceptTerms" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms">I agree with the Terms and Conditions.</label>
-        </section>
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Crear Usuario </h4>
+      </div>
+      <div class="modal-body">
+       <div class="col-md-4">
+        <div style ="margin-bottom: 20px;
+             margin-top: 10px; margin-left: 25px;">
+        <div>
+
+          <img src="../../../img/descarga.jpg" alt=""/>
+         </div>
+         </div>
+           
+           <div class="control-label col-xs-8 col-md-12 col-md-push-1">
+                                            <button class="btn btn-block btn-danger"><i class="fa fa-male"></i>ENVIAR</button>
+                                        </div>
+           <form>
+               <div style="margin-top:80px;">
+           <div class="form-group">
+        <label class="control-label col-xs-3">Loguin:</label>
+        <div class="col-xs-6 col-md-12">
+            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
     </div>
-</form>       
-<h3>JavaScript</h3>
-<script>
-                           
-var form = $("#example-form");
-form.validate({
-    errorPlacement: function errorPlacement(error, element) { element.before(error); },
-    rules: {
-        confirm: {
-            equalTo: "#password"
-        }
-    }
-});
-form.children("div").steps({
-    headerTag: "h3",
-    bodyTag: "section",
-    transitionEffect: "slideLeft",
-    onStepChanging: function (event, currentIndex, newIndex)
-    {
-        form.validate().settings.ignore = ":disabled,:hidden";
-        return form.valid();
-    },
-    onFinishing: function (event, currentIndex)
-    {
-        form.validate().settings.ignore = ":disabled";
-        return form.valid();
-    },
-    onFinished: function (event, currentIndex)
-    {
-        alert("Submitted!");
-    }
-});
-                        </script>
-        
+                   <div class="form-group">
+        <label class="control-label col-xs-3">Contraseña:</label>
+        <div class="col-xs-6 col-md-12">
+            <input type="pass" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+                    <div class="form-group">
+        <label class="control-label col-xs-3">Verificar Contraseña:</label>
+        <div class="col-xs-6 col-md-12">
+            <input type="pass" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+                 <div style="margin-top:20px;" class="col-xs-6 col-md-12">  
+                 <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Dropdown link</a></li>
+      <li><a href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+               </div>        
+               </div>
+           </form>
+         </div>
+        <div class="col-md-8">
+           <div style="margin-top: 0px;
+                
+                                              ">           
+      <form class="form-horizontal">                
+       <div class="form-group">
+        <label class="control-label col-xs-3">Nombre:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Paterno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+    </div>
+                      
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Materno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Sexo:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </div>
+    </div>
+   <div class="form-group">
+        <label class="control-label col-xs-3">Fecha Nacimiento:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="date" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Nacionalidad:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Estado civil:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Casado</option>
+                <option>Soltero</option>
+                <option>Divorcio</option>
+            </select>
+        </div>
+    </div>                  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dirección:</label>
+        <div class="col-xs-9">
+            <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+        </div>
+    </div>
+   <div class="form-group">
+        <label class="control-label col-xs-3">Telefono:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Celular:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dni:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Idioma Oficial:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Español</option>
+                <option>Ingles</option>
+                <option>Otros</option>
+            </select>
+        </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3">Adventista:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Si</option>
+                <option>No</option>
+                
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Fecha Bautizo:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="date" class="form-control" placeholder="Apellido">
+        </div>
+    </div>      
+      </form>
+            </div> 
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+                            
                         </div>
                     </div><!-- /.row -->
                 </section><!-- /.content -->
@@ -387,9 +525,9 @@ form.children("div").steps({
         <!-- jQuery 2.1.4 -->
         <script src="../../../plugins/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>
         <!----jQuery UI-->
-        <script src="../../../plugins/jQuery Steps/jquery.steps.min.js" type="text/javascript"></script>
-        <script src="../../../plugins/jQuery Steps/jquerysteps.js" type="text/javascript"></script>
-        <script src="../../../plugins/jQuery Steps/popup.js" type="text/javascript"></script>
+        <script src="../../../jQuery/external/jquery/jquery.js" type="text/javascript"></script>
+        <script src="../../../jQuery/jquery-ui.js" type="text/javascript"></script>
+        
         <!--
         <script src="../plugins/jQuery/jQuery-2.1.4.min.js" type="text/javascript"></script>
         script src="../../plugins/jQuery/jQuery-2.1.4.min.js"></script>
@@ -405,7 +543,35 @@ form.children("div").steps({
         
         <!--script src="../../dist/js/app.min.js"></script>
         -->
-     
+        <script>
+            $( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Ok",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "Cancel",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+            
+            
+            
+        </script>
         <!-- AdminLTE for demo purposes -->
         <!--
        
