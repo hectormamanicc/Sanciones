@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Listar_Incidencias
-    Created on : 13/01/2016, 08:13:09 PM
+    Document   : Crear_Incidencias
+    Created on : 13/01/2016, 06:27:04 PM
     Author     : ARNOLD
 --%>
 
@@ -171,13 +171,13 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        Listar Incidencias 
+                        Crear Incidencias 
                         <small></small>
                     </h1>
                     <ol class="breadcrumb">
                         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li><a href="#">Incidencias</a></li>
-                        <li class="active"> Incidencias</li>
+                        <li class="active">Crear Incidencias</li>
                     </ol>
                 </section>
 
@@ -185,7 +185,7 @@
                 <section class="content">
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
-                            <div class="box">
+                           <div class="box">
                                 <div class="box-header">
                                      <div class="box-header with-border">
                                          <label class="control-label col-xs-1">Busqueda:</label>
@@ -293,10 +293,6 @@
                                     
                                     </div> 
                                     </div>
-                                </div>
-                                
-                            </div>
-                            
                                
                                     
                                
@@ -348,6 +344,5 @@
         <script src="../../dist/js/demo.js"></script>-->
     </body>
 </html>
-
 
 
