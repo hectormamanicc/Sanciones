@@ -1,7 +1,7 @@
 <%-- 
-    Document   : Crear_Incidencias
-    Created on : 13/01/2016, 06:27:04 PM
-    Author     : ARNOLD
+    Document   : Crear Informes
+    Created on : 12/01/2016, 10:55:52 AM
+    Author     : Hector Mamani CC
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -147,11 +147,11 @@
                         <li class="header">Modulos</li>
                         <li class="treeview">
                             <a href="#">
-                                <i class="fa fa-files-o"></i> <span>Incidencias</span> <i class="fa fa-angle-left pull-right"></i>
+                                <i class="fa fa-files-o"></i> <span>Informes</span> <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Crear Incidencias</a></li>
-                                <li><a href="../../index2.html"><i class="fa fa-table"></i> Lista de Incidencias</a></li>
+                                <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Crear Informes</a></li>
+                                <li><a href="../../index2.html"><i class="fa fa-table"></i> Lista de Informes</a></li>
                             </ul>
                         </li>
 
@@ -171,13 +171,13 @@
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
                     <h1>
-                        Crear Incidencias 
+                        Lista de Informes
                         <small></small>
                     </h1>
                     <ol class="breadcrumb">
                         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li><a href="#">Incidencias</a></li>
-                        <li class="active">Crear Incidencias</li>
+                        <li><a href="#">Informes</a></li>
+                        <li class="active">Lista de Informes</li>
                     </ol>
                 </section>
 
@@ -185,149 +185,250 @@
                 <section class="content">
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
-                           <div class="box">
+                            <div class="box">
                                 <div class="box-header">
-                                     <div class="box-header with-border">
-                                         <label class="control-label col-xs-1">Busqueda:</label>
-                                         <div class="col-md-5 col-md-4">
+                                    <h4 class="box-title">Lista de Informes enviadas por el Usuario</h4>
+
+                                    <div class="box-header with-border">
+
+                                        <div class="box-tools pull-right">
                                             <div class="has-feedback">
                                                 <input type="text" class="form-control input-sm" placeholder="Search...">
                                                 <span class="glyphicon glyphicon-search form-control-feedback"></span>
                                             </div>
-                                        </div>
-                                          </div><!-- /.box -->
+                                        </div><!-- /.box-tools -->
+                                        <!-- /.box-header -->
+                                        <!-- /.box-body -->
+                                    </div><!-- /.box -->
                                     <!-- /.box-header -->
                                     <div class="box-body">
-                                        <table id="example2" class="table table-bordered table-hover">
+                                        <table id="example2" class="table table-bordered table-hover ">
                                             <thead>
                                                 <tr>
-                                                    <th>#</th>
-                                                    <th>Nombre</th>
-                                                    <th>Codigo</th>
-                                                    <th>Dni</th>
+                                                    <th>N°</th>
+                                                    <th>Involucrados</th>
                                                     <th>Lugar</th>
+                                                    <th>Fecha</th>
+                                                    <th>Descripcion</th>
                                                 </tr>
                                             </thead>
 
 
                                         </table>
-                                    </div><!-- /.box-body -->
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                        
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                          <div class="modal-dialog modal-lg" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">INVOLUCRADOS</h4>
+                                              </div>
+                                              <div class="modal-body">
+                                                  
+                                                    <label class="control-label col-xs-3    ">Involucrados:</label>
+                                                    
+                                                        <select class="form-control">
+                                                            <option>xDDDDDDDD</option>
+                                                            <option>LOLLLLLLL</option>
+                                                        </select>
+                                                   
+                                                
+                                                <div class="col-md-4">
+
+                                                <div style ="margin-bottom: 20px;
+                                                     margin-top: 10px; margin-left: 25px;">
+                                                    
+            <div>
+
+              <img src="../../../img/descarga.jpg" alt=""/>
+             </div>
+             </div>
+           
+           
+ 
+         </div>
+        <div class="col-md-8">
+           <div style="margin-top: 0px;
+                
+                                              ">           
+      <form class="form-horizontal">                
+       <div class="form-group">
+        <label class="control-label col-xs-3">Nombre:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Paterno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+    </div>
+                      
+    <div class="form-group">
+        <label class="control-label col-xs-3">Apellido Materno:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Sexo:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </div>
+    </div>
+   <div class="form-group">
+        <label class="control-label col-xs-3">Fecha Nacimiento:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="date" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Nacionalidad:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Estado civil:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Casado</option>
+                <option>Soltero</option>
+                <option>Divorcio</option>
+            </select>
+        </div>
+    </div>                  
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dirección:</label>
+        <div class="col-xs-9">
+            <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
+        </div>
+    </div>
+   <div class="form-group">
+        <label class="control-label col-xs-3">Telefono:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Celular:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Dni:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Idioma Oficial:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Español</option>
+                <option>Ingles</option>
+                <option>Otros</option>
+            </select>
+        </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-xs-3">Adventista:</label>
+        <div class="col-xs-3">
+            <select class="form-control">
+                <option>Si</option>
+                <option>No</option>
+                
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-3">Fecha Bautizo:</label>
+        <div class="col-xs-6 col-md-4">
+            <input type="date" class="form-control" placeholder="Apellido">
+        </div>
+    </div>      
+      </form>
+            </div> 
+            </div>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    <div class="box-footer">
+                                         <div class="col-md-2 col-md-offset-1">
+                                            
+                                            <button type="button" class="btn btn-block btn-success" data-toggle="modal" data-target="#myModal">Involucrados</button>
+                                        </div>
+                                        
+                                        
+                                        
+                                       <div class="col-md-2 col-md-offset-4">
+                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>  Insertar Pruebas</button>
+                                        </div>
+                                        
+                                            
+                                        
+                                        
+                                        
+                                    </div>
+                                    <form class="form-horizontal">
+                                            <div class="form-group">
+                                            <label class="control-label col-xs-3 ">Lugar:</label>
+                                            <div class="col-xs-6 col-md-4 ">
+                                                <input type="email" class="form-control" id="inputEmail">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-xs-3 ">Fecha:</label>
+                                            <div class="col-xs-6 col-md-4 ">
+                                                <input type="date" class="form-control" id="inputEmail">
+                                            </div>
+                                            
+                                        </div>
+                                        <h3>Agregar una Anotacion</h3>
+                                         <div class="form-group">
+                                            <label class="control-label col-xs-3">Descripcion:</label>
+                                            <div class="col-xs-7">
+                                                <textarea rows="6" class="form-control" placeholder="Tenga en cuenta que no podra editar el informe pero se podra acotar "></textarea>
+                                                          
+                                            </div>
+                                        </div>
+                                         <div class="form-group">
+                                            <label class="control-label col-xs-3">Anotacion:</label>
+                                            <div class="col-xs-7">
+                                                <textarea rows="6" class="form-control" placeholder="Agregar adicional "></textarea>
+                                                          
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-md-offset-10">
+                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i> Enviar Informe</button>
+                                        </div>
+                                        </form> 
+                                    
+                                    
+                                    <!-- /.box-body -->
                                 </div><!-- /.box -->
 
 
                             </div>
-                            <div class="box">
-                                <div class="box-header">
-                                    <h3>Mi perfil</h3>
-                                    <div class="col-md-4">
-                                        <div style ="margin-bottom: 20px;
-                                             margin-top: 10px;">
-                                    <div>
-
-                                    <img src="../../../img/descarga.jpg" alt=""/>
-                                        </div>
-                                            <div>
-                                                <label class="control-label col-xs-2 ">CAUSHITA XDDD</label>
-                                           </div>
-                                            <div>
-                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>Editar</button>     
-                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>Cerrar Session</button>
-                                            </div>
-                                    </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                         <div style="margin-top: 0;
-                                              ">
-                                    <form class="form-horizontal">
-                                        <div class="form-group">
-                                            <label class="control-label col-xs-2 ">Descripcion:</label>
-                                            <div class="col-md-2 col-md-offset">
-                                            <!-- Button trigger modal -->
-                                            <button type="button" class="btn btn-primary btn-success" data-toggle="modal" data-target="#myModal">
-                                              Click
-                                            </button>
-
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                              <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                    <h4 class="modal-title" id="myModalLabel">Descripcion</h4>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                    <div class="form-group">
-                                            <label class="control-label col-xs-3">Descripcion:</label>
-                                            <div class="col-xs-7">
-                                                <textarea rows="6" class="form-control" placeholder="Tenga en cuenta que no podra editar el informe pero se podra acotar "></textarea>
-                                                          
-                                            </div>
-                                        </div>
-                                                      <div class="form-group">
-                                            <label class="control-label col-xs-3">Descripcion:</label>
-                                            <div class="col-xs-7">
-                                                <textarea rows="6" class="form-control" placeholder="Tenga en cuenta que no podra editar el informe pero se podra acotar "></textarea>
-                                                          
-                                            </div>
-                                        </div>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                        </div>
-                                            <label class="control-label col-xs-2 ">Involucrados:</label>
-                                            <div class="col-md-2 col-md-offset">
-                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>CLICK</button>
-                                        </div>
-                                            <label class="control-label col-xs-2 ">Responsable del Informe:</label>
-                                            <div class="col-md-2 col-md-offset">
-                                            <button class="btn btn-block btn-success"><i class="fa fa-plus"></i>CLICK</button>
-                                        </div>
-                                            
-                                        </div>
-                                      
-                                       
-                                         <div class="form-group">
-                                             <h3>Reportes de Incidencias</h3>
-                                            
-                                         </div>
-                                        <div>
-                                             <label class="control-label pull-left">Meses:</label>
-                                                 <div class="col-xs-2">
-                                                    <select class="form-control">
-                                                    <option>1</option>
-                                                        <option>2</option>
-                                                     </select>
-                                                     </div>
-                                              <div>
-                                             <label class="control-label pull-left">Años:</label>
-                                                 <div class="col-xs-2">
-                                                    <select class="form-control">
-                                                    <option>1</option>
-                                                        <option>2</option>
-                                                     </select>
-                                                     </div>
-                                        </div>
-                                        </div>
-                                        
-                                        
-                                        
-                                            
-                                        </div>
-                                        </div>
-
-
-
-                                     
-                                        <br>
-
-                                    
-                                    </div> 
-                                    </div>
+             
+                           
                                
                                     
                                
@@ -379,5 +480,6 @@
         <script src="../../dist/js/demo.js"></script>-->
     </body>
 </html>
+
 
 
